@@ -31,6 +31,10 @@ h2{
 }
 
 /* nav bar */
+.menu-icons{
+  display: none;
+}
+
 .nav-wrapper{
   height: 64px;
   margin: 0 24px;
@@ -74,5 +78,41 @@ h2{
   width: auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 800px)  {
+  .right-side{
+    display: none;
+  }
+
+  .left-side{
+    display: none;
+  }
+
+  .nav-wrapper{
+    display: none;
+  }
+  .menu-icons{
+    display: flex;
+    height: 64px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+
+
+  
+}
 
 
